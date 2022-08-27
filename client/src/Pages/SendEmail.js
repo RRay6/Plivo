@@ -8,6 +8,9 @@ const SendEmail = () => {
     // const { logOut, user } = UserAuth();
     // const email_of_user = user.email
     //^after google auth
+    email_of_user = "hheadstartercompanycase@gmail.com"
+    //cut ^
+    const for
     const sendEmail = (e) => {
         e.preventDefault();
     
