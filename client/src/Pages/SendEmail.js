@@ -1,8 +1,13 @@
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
+//import { UserAuth } from '../context/AuthContext'; 
+//^once the Google Auth works
 
 const SendEmail = () => {
     const form = useRef() 
+    // const { logOut, user } = UserAuth();
+    // const email = user.email
+    //^after google auth
     const sendEmail = (e) => {
         e.preventDefault();
     
