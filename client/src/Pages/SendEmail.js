@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 const SendEmail = () => {
     const form = useRef() 
     // const { logOut, user } = UserAuth();
-    // const email = user.email
+    // const email_of_user = user.email
     //^after google auth
     const sendEmail = (e) => {
         e.preventDefault();
